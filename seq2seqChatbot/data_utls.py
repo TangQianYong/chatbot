@@ -12,6 +12,7 @@ gConfig = {}
 gConfig=getConfig.get_config()
 
 conv_path = gConfig['resource_data']
+print(conv_path)
  
 if not os.path.exists(conv_path):
 	
